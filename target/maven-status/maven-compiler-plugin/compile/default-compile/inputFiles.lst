@@ -1,0 +1,9 @@
+/app/src/main/java/dk/springboot/restful/user/UserRespository.java
+/app/src/main/java/dk/springboot/restful/user/UserService.java
+/app/src/main/java/dk/springboot/restful/user/UserApi.java
+/app/src/main/java/dk/springboot/restful/user/User.java
+/app/src/main/java/dk/springboot/restful/product/ProductService.java
+/app/src/main/java/dk/springboot/restful/product/ProductAPI.java
+/app/src/main/java/dk/springboot/restful/product/Product.java
+/app/src/main/java/dk/springboot/restful/product/ProductRespository.java
+/app/src/main/java/dk/springboot/restful/Application.java
