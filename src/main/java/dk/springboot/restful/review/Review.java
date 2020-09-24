@@ -1,4 +1,5 @@
-package dk.springboot.restful.product;
+package dk.springboot.restful.review;
+
 
 import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;
@@ -8,22 +9,25 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import java.math.BigDecimal;
 import java.util.Date;
 
 @Entity
 
 @Data
-public class Product {
+public class Review {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String name;
+    private Long game_id;
 
-    private String description;
+    private String userName;
 
-    private BigDecimal price;
+    private String country;
+
+    private int ratingScore;
+
+    private String body;
 
     @CreationTimestamp
     private Date createdAt;

@@ -10,21 +10,21 @@ import java.util.Optional;
 
 @RequiredArgsConstructor
 public class UserService {
-    private final UserRespository userRespository;
+    private final UserRepository userRepository;
 
     public List<User> findAll() {
-        return userRespository.findAll();
+        return userRepository.findAll();
     }
 
     public Optional<User> findById(Long id) {
-        return userRespository.findById(id);
+        return userRepository.findById(id);
     }
 
     public User save(User user) {
-        return userRespository.save(user);
+        return userRepository.save(user);
     }
 
     public void deleteById(Long id) {
-        userRespository.deleteById(id);
+        userRepository.deleteById(id);
     }
 }

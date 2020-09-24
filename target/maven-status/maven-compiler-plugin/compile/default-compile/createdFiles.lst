@@ -1,9 +1,9 @@
+dk/springboot/restful/user/UserRepository.class
 dk/springboot/restful/user/UserService.class
-dk/springboot/restful/product/ProductAPI.class
-dk/springboot/restful/product/Product.class
-dk/springboot/restful/product/ProductRespository.class
+dk/springboot/restful/review/ReviewService.class
+dk/springboot/restful/review/ReviewRepository.class
 dk/springboot/restful/user/User.class
-dk/springboot/restful/user/UserRespository.class
+dk/springboot/restful/review/Review.class
 dk/springboot/restful/Application.class
-dk/springboot/restful/product/ProductService.class
+dk/springboot/restful/review/ReviewAPI.class
 dk/springboot/restful/user/UserApi.class
