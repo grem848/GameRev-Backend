@@ -20,7 +20,7 @@ public class ReviewService {
         return reviewRepository.findById(id);
     }
 
-    public Optional<Review> findByGameID(Long id) {
+    public List<Review> findByGameID(Long id) {
         return reviewRepository.findByGameID(id);
     }
 

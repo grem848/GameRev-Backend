@@ -12,6 +12,7 @@ import java.util.Optional;
 
 
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("api/v1/reviews")
 @Slf4j
 @RequiredArgsConstructor
@@ -38,12 +39,12 @@ public class ReviewAPI {
     }
 
     @GetMapping("/game/{id}")
-    public ResponseEntity<Review> findByGameId(@PathVariable Long id){
-        Optional<Review> review = reviewService.findByGameID(id);
-        if(!review.isPresent()){
+    public ResponseEntity<List<Review>> findByGameId(@PathVariable Long id){
+        List<Review> reviews = reviewService.findByGameID(id);
+        if(!reviews.isEmpty()){
             ResponseEntity.notFound().build();
         }
-        return ResponseEntity.ok(review.get());
+        return ResponseEntity.ok(reviews);
     }
 
     @PutMapping("/{id}")
