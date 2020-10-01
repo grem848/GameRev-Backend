@@ -12,6 +12,7 @@ package dk.springboot.restful.flag;
 
 @RestController
 @RequestMapping("api/v1/flag")
+@CrossOrigin(origins = "*")
 @Slf4j
 @RequiredArgsConstructor
 public class FlagApi {
