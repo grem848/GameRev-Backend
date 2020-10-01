@@ -1,6 +1,7 @@
 package dk.springboot.restful.flag;
 
 import java.io.*;
+
 import java.net.HttpURLConnection;
 import java.net.URL;
 
@@ -51,12 +52,10 @@ public class FlagService {
             response.append(inputLine);
         }
         in.close();
-        System.out.println("response" + response.toString());
-        return response.toString();
+        return (response.toString().split("<m:CountryFlagResult>")[1].split("</m:CountryFlagResult>")[0]);
     }catch (Exception e ){
             System.out.println(e);
             return null;
         }
     }
-
 }
