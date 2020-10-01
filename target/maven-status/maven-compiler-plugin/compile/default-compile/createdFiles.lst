@@ -6,6 +6,6 @@ dk/springboot/restful/review/ReviewRepository.class
 dk/springboot/restful/flag/FlagService.class
 dk/springboot/restful/user/User.class
 dk/springboot/restful/review/Review.class
-dk/springboot/restful/user/UserApi.class
-dk/springboot/restful/review/ReviewAPI.class
 dk/springboot/restful/Application.class
+dk/springboot/restful/review/ReviewAPI.class
+dk/springboot/restful/user/UserApi.class

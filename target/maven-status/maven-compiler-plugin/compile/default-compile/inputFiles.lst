@@ -1,11 +1,11 @@
-/app/src/main/java/dk/springboot/restful/user/UserService.java
 /app/src/main/java/dk/springboot/restful/review/Review.java
+/app/src/main/java/dk/springboot/restful/user/UserService.java
 /app/src/main/java/dk/springboot/restful/user/UserApi.java
 /app/src/main/java/dk/springboot/restful/review/ReviewAPI.java
 /app/src/main/java/dk/springboot/restful/user/User.java
 /app/src/main/java/dk/springboot/restful/flag/FlagService.java
-/app/src/main/java/dk/springboot/restful/user/UserRepository.java
 /app/src/main/java/dk/springboot/restful/review/ReviewRepository.java
+/app/src/main/java/dk/springboot/restful/user/UserRepository.java
 /app/src/main/java/dk/springboot/restful/flag/FlagApi.java
 /app/src/main/java/dk/springboot/restful/review/ReviewService.java
 /app/src/main/java/dk/springboot/restful/Application.java

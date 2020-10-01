@@ -3,12 +3,10 @@ package dk.springboot.restful.review;
 
 import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.Type;
 import org.hibernate.annotations.UpdateTimestamp;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.Date;
 
 @Entity
@@ -27,6 +25,7 @@ public class Review {
 
     private int ratingScore;
 
+    @Column(length = 4000, columnDefinition="TEXT")
     private String body;
 
     @CreationTimestamp
